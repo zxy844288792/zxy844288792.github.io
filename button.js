@@ -1,4 +1,4 @@
 function scroll_messages()
 {
-   return "hello";
+   window.alert("hello");
 }
