@@ -1,0 +1,21 @@
+name: "Blog of Wenli Zhang"
+description: "Web Front-End Blog by Wenli Zhang"
+
+url: "http://zhangwenli.com/blog"
+loadingImg: "http://zhangwenli.com/blog/img/loading.gif"
+filePath: "http://zhangwenli.com/blog/img/"
+
+timezone: Asia/Shanghai
+
+paginate: 16
+paginate_path: "/page:num"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+highlighter: rouge
+
+permalink: pretty
+
+gems:
+- jekyll-paginate
